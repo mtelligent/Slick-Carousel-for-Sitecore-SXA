@@ -1,0 +1,90 @@
+﻿---
+ID: "6f3f77fc-88ba-49ea-b72e-380938878c3f"
+Parent: "51f491f4-32ec-4e2a-86dc-a9169d81d10f"
+Template: "51f491f4-32ec-4e2a-86dc-a9169d81d10f"
+Path: /sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "01e744fb-73d8-4a46-875d-ea2e573877b8"
+      Hint: AutoPlay
+      Type: Checkbox
+      Value: 0
+    - ID: "06c2d892-d7f1-42c2-94bc-0f0fae9a1fff"
+      Hint: Zindex
+      Value: 1000
+    - ID: "18f14105-1eef-4cfb-a35e-bbb12f4ab2b3"
+      Hint: AdditionalOptions
+      Value: 
+    - ID: "1cb8df3e-c60e-4a5c-94be-b89041b1e6b4"
+      Hint: TouchThreshold
+      Value: 5
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190627T135226Z
+    - ID: "2a775870-6326-4f42-abc1-17663f59db1e"
+      Hint: SlidesToScroll
+      Value: 1
+    - ID: "2bef19a1-e7d0-4843-8a0d-7bdb18ae453e"
+      Hint: Arrows
+      Type: Checkbox
+      Value: 1
+    - ID: "2f0cf9bf-fd10-4683-9977-5fb9952dc49a"
+      Hint: AutoplaySpeed
+      Value: 3000
+    - ID: "41d3e43f-dc68-4d13-b4d9-385ccab8f77d"
+      Hint: SlidesPerRow
+      Value: 1
+    - ID: "4f85dea2-95a5-44d9-9380-a2dd71232faf"
+      Hint: CenterPadding
+      Value: 50px
+    - ID: "66a42fa8-93f6-430b-a24e-b6e5d4fb3d04"
+      Hint: PauseOnHover
+      Type: Checkbox
+      Value: 1
+    - ID: "67d1d016-cd26-48cb-95b9-8b1057214652"
+      Hint: Rows
+      Value: 1
+    - ID: "6cc07dcf-a986-4194-88a0-6f0704cec1b1"
+      Hint: Easing
+      Value: ease
+    - ID: "6fe726d1-648a-43d5-a960-7c986e31bec3"
+      Hint: Speed
+      Value: 300
+    - ID: "7f3e45fc-28df-42c3-9c26-99ece021e155"
+      Hint: Draggable
+      Type: Checkbox
+      Value: 1
+    - ID: "868c3af1-950a-41b1-b88a-28e305159a8a"
+      Hint: TouchMove
+      Type: Checkbox
+      Value: 1
+    - ID: "a34a0407-4c5d-4827-b95a-6b2db1cd43ac"
+      Hint: Display Single Item
+      Type: Checkbox
+      Value: 1
+    - ID: "af58c3b7-c69b-4947-a304-e1c4d18417ac"
+      Hint: Infinite
+      Type: Checkbox
+      Value: 1
+    - ID: "b73da97f-6ce9-4c1e-90d0-0ae5466a66a6"
+      Hint: Rewind Nav
+      Type: Checkbox
+      Value: 1
+    - ID: "c860ce8a-cbc0-474f-8218-804e068e39e1"
+      Hint: PauseOnFocus
+      Type: Checkbox
+      Value: 1
+    - ID: "db419c16-e58a-4e3a-9a78-7d4d6cd03757"
+      Hint: InitialSlide
+      Value: 0
+    - ID: "e0da6e1d-915a-4ca2-943d-08ccacb47fb4"
+      Hint: SlidesToShow
+      Value: 1

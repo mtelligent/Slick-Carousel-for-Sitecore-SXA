@@ -1,0 +1,15 @@
+﻿
+.slick-prev:before, .slick-next:before {
+    color: red !important;
+}
+
+.slick-dots li button::before {
+    font-size: 16px;
+    color: red;
+    opacity: 0.7;
+}
+
+.slick-dots li.slick-active button::before {
+    color: gray;
+    opacity: 1;
+}
