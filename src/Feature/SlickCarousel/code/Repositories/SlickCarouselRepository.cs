@@ -17,7 +17,7 @@ namespace SF.Feature.SlickCarousel.Repositories
             FillBaseProperties(model);
 
             //Exploded changes container class so it's not a carousel.
-            if (model.Rendering.Parameters.IsRenderingParameterChecked("Exploded"))
+            if (model.Rendering.Parameters.IsRenderingParameterChecked("Explode"))
             {
                 model.ContainerClass = "slick-carousel-editor";
             }

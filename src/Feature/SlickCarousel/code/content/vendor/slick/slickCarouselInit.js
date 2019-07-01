@@ -1,10 +1,12 @@
-﻿jQuery(document).ready(function () {
-    // Slick hates the code items as children, so we move to sibling and
-    // Everything works properly.
-    jQuery(".slick-carousel").children("code").each(function (index, value) {
-        var item = jQuery(value);
-        item.appendTo(item.parent().parent());
-    });
+﻿
+jQuery(document).ready(function () {
+    if (typeof Sitecore !== typeof undefined) {
+        //Infinite breaks Experience Editor, so we disable if defined.
+        jQuery('.slick-carousel').slick({ slide: ".slick-carousel-Item", infinite: false });
+    }
+    else {
+        jQuery('.slick-carousel').slick({ slide: ".slick-carousel-Item" });
+    }
 
-    jQuery('.slick-carousel').slick();
-});
+ });
+

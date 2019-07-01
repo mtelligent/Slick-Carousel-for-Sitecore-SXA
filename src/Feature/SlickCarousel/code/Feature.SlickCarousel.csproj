@@ -236,6 +236,7 @@
     <Compile Include="Repositories\RegisterDependencies.cs" />
     <Content Include="content\vendor\slick\ajax-loader.gif" />
     <Content Include="content\vendor\slick\fonts\slick.svg" />
+    <Content Include="content\vendor\slick\slick1.8.js" />
     <Content Include="content\vendor\slick\slick-theme.css" />
     <Content Include="content\vendor\slick\slick.css" />
     <Content Include="content\vendor\slick\slick.js" />
