@@ -103,6 +103,14 @@ SOFTWARE.</License>
         <x-item>/master/sitecore/system/Settings/Feature/SF/Slick Carousel/Slick Carousel Tenant Setup/{995B3A3D-6A03-42CC-BD79-A86C01B10BCC}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Feature/SF/Slick Carousel/Slick Carousel Site Setup/Add Available Renderings/{A1E8C49B-91E1-461B-96DB-D3BE8D304141}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Feature/SF/Slick Carousel/Slick Carousel Site Setup/Edit Site Theme/{D01B00F1-80FC-4DEC-A99D-BCE59BCCAB39}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Slick Carousel/{954C477A-90F0-4667-829F-73BA3F9A341C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Slick Carousel/Slick Carousel Available Renderings/{E6BAC0FD-E428-4521-80DC-7CB892D54BAF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Slick Carousel/Slick Carousel Available Renderings/$name/{ECC1D3D4-9F01-4B53-8E41-D847C911E0FC}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/Transitions/{1A010C0A-72A8-4E34-9476-83FA8F1211C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/Transitions/linear/{026EC5CC-7F86-4147-B825-5E12E315047E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/Transitions/ease/{6B8637DA-3CAE-4176-987B-9187DE28FE2F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/Transitions/ease-in/{E949A47C-5FCB-466E-8FF9-4DD5B2FBCDDF}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/Transitions/ease-out/{A4117068-9CE1-4106-BFA4-A44EAAB342C0}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
@@ -130,6 +138,7 @@ SOFTWARE.</License>
         <x-item>/Views/SlickCarousel</x-item>
         <x-item>/Views/SlickCarousel/CarouselItem.cshtml</x-item>
         <x-item>/Views/SlickCarousel/Index.cshtml</x-item>
+        <x-item>/App_Config/Include/Feature.SlickCarousel/SlickCarousel.config</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
