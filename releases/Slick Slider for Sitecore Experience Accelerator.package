@@ -1,0 +1,162 @@
+<project site="slick.dev.local" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>Slick Slider for Sitecore Experience Accelerator</PackageName>
+      <Author>David San Filippo</Author>
+      <Version>0.9</Version>
+      <Revision />
+      <License>Copyright (c) 2019 David San Filippo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</License>
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>mtelligent</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/{599FAD7D-BF17-4E3B-B6D4-280C87416681}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Available Renderings/{8BE4E358-79F8-4A32-9DAF-52C38CDEAE25}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Configuration Templates/{7EDC4CD8-2E5C-4654-9ECB-1E2C6FB4EA03}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/{89E4CE12-8D6E-4C7E-9ABE-43B1B509BEEA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Available Renderings/Slick Carousel Available Renderings/{1EBD58C7-EB45-4BBA-A919-B551E6F0C9AC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Available Renderings/Slick Carousel Available Renderings/__Standard Values/{9F9E4ADE-5D53-4BD2-A198-610F8239CC7A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Configuration Templates/Drop Down Item/{A280AAB8-15A0-4646-9D39-C606E81BE744}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselItemParameters/{EB373214-97A2-4342-BA50-39B62FEE0817}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/{51F491F4-32EC-4E2A-86DC-A9169D81D10F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselItemParameters/__Standard Values/{5A4537D9-1AD2-42B9-8E02-D98A22509FDF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Basics/{A47B52BE-8016-4F87-8DB4-DE382AF284A2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/{73ABFB6D-39C9-4EC9-9E63-87736D2F1F38}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/{B376D162-CF51-429A-9396-1075CA4568C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Advanced Settings/{BCE9D2A8-A59A-4E41-9324-C8AD5E085207}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/__Standard Values/{6F3F77FC-88BA-49EA-B72E-380938878C3F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Basics/SlidesToShow/{E0DA6E1D-915A-4CA2-943D-08CCACB47FB4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Basics/AutoPlay/{01E744FB-73D8-4A46-875D-EA2E573877B8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Basics/Arrows/{2BEF19A1-E7D0-4843-8A0D-7BDB18AE453E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Basics/Dots/{19294DF7-7FFF-4F7D-961F-11AD52E02BEE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Basics/Infinite/{AF58C3B7-C69B-4947-A304-E1C4D18417AC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/Explode/{D0AFB1ED-4ECA-4CCE-8695-3DF4B8A54386}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/AutoplaySpeed/{2F0CF9BF-FD10-4683-9977-5FB9952DC49A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/Draggable/{7F3E45FC-28DF-42C3-9C26-99ECE021E155}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/InitialSlide/{DB419C16-E58A-4E3A-9A78-7D4D6CD03757}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/MobileFirst/{03E48EDB-F3CF-422F-A5FD-8B7BAF027BC5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/PauseOnDotsHover/{9EDE9E47-1773-46C7-8D78-E28BAC325E15}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/PauseOnFocus/{C860CE8A-CBC0-474F-8218-804E068E39E1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/PauseOnHover/{66A42FA8-93F6-430B-A24E-B6E5D4FB3D04}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/Fade/{48331778-A6B1-475B-8A39-FF5EC18885C8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/Speed/{6FE726D1-648A-43D5-A960-7C986E31BEC3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/SwipeToSlide/{F1DE73FC-53A1-4EC2-8827-6799F93EE6BF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/TouchMove/{868C3AF1-950A-41B1-B88A-28E305159A8A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/TouchThreshold/{1CB8DF3E-C60E-4A5C-94BE-B89041B1E6B4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/Vertical/{84DD0D9B-CF80-4834-A76E-5CEE48A7A727}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/VerticalSwiping/{364C1D93-1700-435B-AA18-841232E89AAC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/Easing/{6CC07DCF-A986-4194-88A0-6F0704CEC1B1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/AdaptiveHeight/{6CB4896E-4B2E-467D-8AB0-CFEA01A63D1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/CenterMode/{684B9D52-42B0-4AA1-AF67-8437F096BBF5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/CenterPadding/{4F85DEA2-95A5-44D9-9380-A2DD71232FAF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/Rows/{67D1D016-CD26-48CB-95B9-8B1057214652}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/SlidesPerRow/{41D3E43F-DC68-4D13-B4D9-385CCAB8F77D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/SlidesToScroll/{2A775870-6326-4F42-ABC1-17663F59DB1E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/Zindex/{06C2D892-D7F1-42C2-94BC-0F0FAE9A1FFF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Advanced Settings/AdditionalOptions/{18F14105-1EEF-4CFB-A35E-BBB12F4AB2B3}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Slick Carousel/{04B86650-C0FA-4803-9A9B-811FE17276CE}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Slick Carousel/Composites/{F99AE722-CD06-4A77-9530-4EA74D9BE5B4}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Slick Carousel/Composites/Slick Carousel/{67430B9D-B5DF-4B48-8926-8A9A4107263D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Slick Carousel/Composites/Slick Carousel Item/{DB0CA3F6-F800-4D9D-AC12-010051F34991}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Feature/SF/Slick Carousel/{887A247A-7161-4EC6-A4E0-429571464CAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Feature/SF/Slick Carousel/SlickCarouselItems/{F5A786A1-4227-4F6C-9A22-82032CF35A3F}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Feature/SF/Slick Carousel/{132DDCCB-233A-44EA-AF6E-F55A560F0650}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Feature/SF/Slick Carousel/slickcarousel/{B731052F-E0D6-4ADA-9A07-9F44B2179388}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/{C1C8CA2E-8714-4EF9-A35C-388350521E72}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/scripts/{AE4FF754-45D5-44DD-8865-4902F0F6695F}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/styles/{ABCC4D47-D752-434B-ADA4-573C71D446CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/scripts/optimized-min/{78A253BD-DE02-4EA9-8A8A-A0B2367A67D0}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/scripts/slickcarousel/{A5DAB22F-B77A-4224-9D77-5FD302CC9DCA}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/scripts/slickCarouselInit/{EB0E9522-4716-4E17-BDA9-3BB32DBD0D8B}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/styles/optimized-min/{4D80B90A-09FE-4A9C-B2BE-E108CC9FC4B5}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/styles/slickcarousel/{32DE1283-32EA-4F5F-B144-3C7F3B0518CB}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/styles/slickCarouseltheme/{CE5D2DE6-F69F-49F5-8303-650AD554D633}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/styles/slickCustom/{9506C878-A1DE-4202-B318-0496099E5DE4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Slick Carousel/{311D3D08-70BB-4498-837F-0DB5AF42F9CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Slick Carousel/Slick Carousel Site Setup/{6A78231A-5184-460C-BCB7-7DEC116C095B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Slick Carousel/Slick Carousel Tenant Setup/{995B3A3D-6A03-42CC-BD79-A86C01B10BCC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Slick Carousel/Slick Carousel Site Setup/Add Available Renderings/{A1E8C49B-91E1-461B-96DB-D3BE8D304141}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Slick Carousel/Slick Carousel Site Setup/Edit Site Theme/{D01B00F1-80FC-4DEC-A99D-BCE59BCCAB39}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/SF.Feature.SlickCarousel.dll</x-item>
+        <x-item>/bin/SF.Feature.SlickCarousel.pdb</x-item>
+        <x-item>/Views/SlickCarousel</x-item>
+        <x-item>/Views/SlickCarousel/CarouselItem.cshtml</x-item>
+        <x-item>/Views/SlickCarousel/Index.cshtml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
