@@ -139,6 +139,11 @@ SOFTWARE.</License>
         <x-item>/Views/SlickCarousel/CarouselItem.cshtml</x-item>
         <x-item>/Views/SlickCarousel/Index.cshtml</x-item>
         <x-item>/App_Config/Include/Feature.SlickCarousel/SlickCarousel.config</x-item>
+        <x-item>/content/vendor/slick/ajax-loader.gif</x-item>
+        <x-item>/content/vendor/slick/fonts/slick.eot</x-item>
+        <x-item>/content/vendor/slick/fonts/slick.ttf</x-item>
+        <x-item>/content/vendor/slick/fonts/slick.woff</x-item>
+        <x-item>/content/vendor/slick/fonts/slick.svg</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
