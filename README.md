@@ -2,11 +2,9 @@
 
 This project adds a "Slick Carousel" component to the toolbox. 
 
-Adding it to the page creates a placeholder to which you can add "Carousel Items." 
+This component is a "Composite" component, like the OOB SXA Carousel, but leverages Slick and provides the ability to configure most of Slick's parameters through "Component Properties"'
 
-Each Carousel Item has a placeholder which you can add any other SXA Component to: Promo's, Rich Text, whatever you need.
-
-Save after adding to reload the page and actually have the Carousel Activated. Should work in experience editor mode as well as preview.
+This component leverages the same templates as the OOB SXA Carousel, so you can use existing carousel content.
 
 The carousel itself supports the SXA Grid. Modify settings through the "Component Properties". There are many other slick options that have been parameterized for easy configuration, including a 'additional options' parameter which can be filled with json parameters to fully configure slick's options as you see fit.
 
