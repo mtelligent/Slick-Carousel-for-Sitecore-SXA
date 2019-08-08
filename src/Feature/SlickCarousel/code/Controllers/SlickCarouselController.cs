@@ -13,29 +13,15 @@ namespace SF.Feature.SlickCarousel.Controllers
     public class SlickCarouselController : StandardController
     {
         protected readonly ISlickCarouselRepository CarouselRepository;
-        protected readonly ISlickCarouselItemRepository CarouselItemRepository;
 
-        public SlickCarouselController(ISlickCarouselRepository repository, ISlickCarouselItemRepository itemRepository)
+        public SlickCarouselController(ISlickCarouselRepository repository)
         {
             this.CarouselRepository = repository;
-            this.CarouselItemRepository = itemRepository;
         }
 
         protected override object GetModel()
         {
             return CarouselRepository.GetModel();
-        }
-
-        public SlickCarouselItemModel GetCarouselItemModel()
-        {
-            return CarouselItemRepository.GetModel() as SlickCarouselItemModel;
-        }
-
-        public ActionResult CarouselItem()
-        {
-            var model = GetCarouselItemModel();
-
-            return View(model);
         }
 
         public override ActionResult Index()

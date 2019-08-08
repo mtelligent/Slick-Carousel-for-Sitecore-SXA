@@ -1,5 +1,6 @@
 ﻿using SF.Feature.SlickCarousel.Extensions;
 using SF.Feature.SlickCarousel.Models;
+using Sitecore.XA.Feature.Composites.Repositories;
 using Sitecore.XA.Foundation.Mvc.Repositories.Base;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Web;
 
 namespace SF.Feature.SlickCarousel.Repositories
 {
-    public class SlickCarouselRepository : ModelRepository, ISlickCarouselRepository
+    public class SlickCarouselRepository : CompositeComponentRepository, ISlickCarouselRepository
     {
         public override IRenderingModelBase GetModel()
         {

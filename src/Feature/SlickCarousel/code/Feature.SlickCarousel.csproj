@@ -139,6 +139,12 @@
     <Reference Include="Sitecore.Mvc.ExperienceEditor, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Mvc.ExperienceEditor.9.1.0\lib\net471\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.XA.Feature.Composites, Version=4.8.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Feature.Composites.4.8.1\lib\NET471\Sitecore.XA.Feature.Composites.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.XA.Foundation.DynamicPlaceholders, Version=4.8.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.DynamicPlaceholders.4.8.1\lib\NET471\Sitecore.XA.Foundation.DynamicPlaceholders.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XA.Foundation.Grid, Version=4.8.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XA.Foundation.Grid.4.8.1\lib\NET471\Sitecore.XA.Foundation.Grid.dll</HintPath>
     </Reference>
@@ -225,13 +231,9 @@
   <ItemGroup>
     <Compile Include="Controllers\SlickCarouselController.cs" />
     <Compile Include="Extensions\IParametersExtensions.cs" />
-    <Compile Include="Models\SlickCarouselItemModel.cs" />
     <Compile Include="Models\SlickCarouselModel.cs" />
-    <Compile Include="Pipelines\DynamicAddPlaceholderWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\ISlickCarouselItemRepository.cs" />
     <Compile Include="Repositories\ISlickCarouselRepository.cs" />
-    <Compile Include="Repositories\SlickCarouselItemRepository.cs" />
     <Compile Include="Repositories\SlickCarouselRepository.cs" />
     <Compile Include="Repositories\RegisterDependencies.cs" />
     <Content Include="content\vendor\slick\ajax-loader.gif" />
@@ -253,7 +255,6 @@
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="content\vendor\slick\slickCustom.css" />
     <Content Include="Views\SlickCarousel\Index.cshtml" />
-    <Content Include="Views\SlickCarousel\CarouselItem.cshtml" />
     <None Include="Views\web.config" />
     <None Include="web.always.config">
       <DependentUpon>web.config</DependentUpon>

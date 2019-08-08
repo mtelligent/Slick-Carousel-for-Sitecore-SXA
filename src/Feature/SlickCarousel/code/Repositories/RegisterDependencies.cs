@@ -19,8 +19,7 @@ namespace SF.Feature.SlickCarousel.Repositories
         private void RegisterRepositories(IServiceCollection serviceCollection)
         {
             serviceCollection.AddTransient<ISlickCarouselRepository, SlickCarouselRepository>();
-            serviceCollection.AddTransient<ISlickCarouselItemRepository, SlickCarouselItemRepository>();
-
+            
         }
 
         private void RegisterControllers(IServiceCollection serviceCollection)

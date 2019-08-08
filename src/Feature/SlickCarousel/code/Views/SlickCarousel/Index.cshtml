@@ -3,11 +3,40 @@
 
 @model SF.Feature.SlickCarousel.Models.SlickCarouselModel
 
+@{
+    const string baseKey = "section-content";
+}
+
+@if (Model.HasCompositeLoop)
+{
+    @Model.MessageHasLoop
+}
+else if (Model.DataSourceItem == null)
+{
+    @Model.MessageIsEmpty
+}
+else if (Model.CompositeCount == 0 || Model.HasCompositeLoop)
+{
+    using (Html.Sxa().BeginEditFrame(Model.DataSourceItem.ID.ToString(), "Carousel Empty", Model.IsControlEditable))
+    {
+        @Model.MessageIsEmpty
+    }
+}
+
 <div @Html.Sxa().Component("slick-carousel-container", Model.Attributes)>
     <div class="component-content">
         <div class="@Model.ContainerClass" data-slick='@Html.Raw(Model.DataOptions)'>
-            @Html.Sitecore().DynamicPlaceholder("slick")
+            @foreach (var composite in Model.CompositeItems)
+            {
+                var slideKey = string.Format("{0}-{1}-{2}", baseKey, composite.Key, Model.Id);
+                <div class="slick-carousel-Item">
+                    @using (Html.Sxa().BeginEditFrame(composite.Value.ID.ToString(), "Carousel", Model.IsControlEditable))
+                    {
+                        @Html.Sitecore().Placeholder(slideKey)
+                    }
+                </div>
+            }
+
         </div>
     </div>
 </div>
-

@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Slick Slider for Sitecore Experience Accelerator</PackageName>
       <Author>David San Filippo</Author>
-      <Version>0.9</Version>
+      <Version>1.0</Version>
       <Revision />
       <License>Copyright (c) 2019 David San Filippo
 
@@ -43,9 +43,7 @@ SOFTWARE.</License>
         <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Available Renderings/Slick Carousel Available Renderings/{1EBD58C7-EB45-4BBA-A919-B551E6F0C9AC}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Available Renderings/Slick Carousel Available Renderings/__Standard Values/{9F9E4ADE-5D53-4BD2-A198-610F8239CC7A}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Configuration Templates/Drop Down Item/{A280AAB8-15A0-4646-9D39-C606E81BE744}/invariant/0</x-item>
-        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselItemParameters/{EB373214-97A2-4342-BA50-39B62FEE0817}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/{51F491F4-32EC-4E2A-86DC-A9169D81D10F}/invariant/0</x-item>
-        <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselItemParameters/__Standard Values/{5A4537D9-1AD2-42B9-8E02-D98A22509FDF}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Basics/{A47B52BE-8016-4F87-8DB4-DE382AF284A2}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Behavior/{73ABFB6D-39C9-4EC9-9E63-87736D2F1F38}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Feature/SF/Slick Carousel/Rendering Parameters/SlickCarouselParameters/Slider Size and Positioning/{B376D162-CF51-429A-9396-1075CA4568C9}/invariant/0</x-item>
@@ -83,15 +81,11 @@ SOFTWARE.</License>
         <x-item>/master/sitecore/layout/Renderings/Feature/SF/Slick Carousel/{04B86650-C0FA-4803-9A9B-811FE17276CE}/invariant/0</x-item>
         <x-item>/master/sitecore/layout/Renderings/Feature/SF/Slick Carousel/Composites/{F99AE722-CD06-4A77-9530-4EA74D9BE5B4}/invariant/0</x-item>
         <x-item>/master/sitecore/layout/Renderings/Feature/SF/Slick Carousel/Composites/Slick Carousel/{67430B9D-B5DF-4B48-8926-8A9A4107263D}/invariant/0</x-item>
-        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Slick Carousel/Composites/Slick Carousel Item/{DB0CA3F6-F800-4D9D-AC12-010051F34991}/invariant/0</x-item>
-        <x-item>/master/sitecore/layout/Placeholder Settings/Feature/SF/Slick Carousel/{887A247A-7161-4EC6-A4E0-429571464CAD}/invariant/0</x-item>
-        <x-item>/master/sitecore/layout/Placeholder Settings/Feature/SF/Slick Carousel/SlickCarouselItems/{F5A786A1-4227-4F6C-9A22-82032CF35A3F}/invariant/0</x-item>
         <x-item>/master/sitecore/media library/Feature/SF/Slick Carousel/{132DDCCB-233A-44EA-AF6E-F55A560F0650}/invariant/0</x-item>
         <x-item>/master/sitecore/media library/Feature/SF/Slick Carousel/slickcarousel/{B731052F-E0D6-4ADA-9A07-9F44B2179388}/invariant/0</x-item>
         <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/{C1C8CA2E-8714-4EF9-A35C-388350521E72}/invariant/0</x-item>
         <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/scripts/{AE4FF754-45D5-44DD-8865-4902F0F6695F}/invariant/0</x-item>
         <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/styles/{ABCC4D47-D752-434B-ADA4-573C71D446CD}/invariant/0</x-item>
-        <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/scripts/optimized-min/{78A253BD-DE02-4EA9-8A8A-A0B2367A67D0}/invariant/0</x-item>
         <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/scripts/slickcarousel/{A5DAB22F-B77A-4224-9D77-5FD302CC9DCA}/invariant/0</x-item>
         <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/scripts/slickCarouselInit/{EB0E9522-4716-4E17-BDA9-3BB32DBD0D8B}/invariant/0</x-item>
         <x-item>/master/sitecore/media library/Base Themes/Slick Carousel/styles/optimized-min/{4D80B90A-09FE-4A9C-B2BE-E108CC9FC4B5}/invariant/0</x-item>
@@ -136,7 +130,6 @@ SOFTWARE.</License>
         <x-item>/bin/SF.Feature.SlickCarousel.dll</x-item>
         <x-item>/bin/SF.Feature.SlickCarousel.pdb</x-item>
         <x-item>/Views/SlickCarousel</x-item>
-        <x-item>/Views/SlickCarousel/CarouselItem.cshtml</x-item>
         <x-item>/Views/SlickCarousel/Index.cshtml</x-item>
         <x-item>/App_Config/Include/Feature.SlickCarousel/SlickCarousel.config</x-item>
         <x-item>/content/vendor/slick/ajax-loader.gif</x-item>
